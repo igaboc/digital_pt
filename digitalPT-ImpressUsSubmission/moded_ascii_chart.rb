@@ -1,3 +1,8 @@
+## This is a modified version of the ascii_charts module available at:
+## https://github.com/benlund/ascii_charts
+## the only modification was a bug fix in this line:
+## min_y_vals = self.options[:min_y_vals] || DEFAULT_MIN_Y_VALS
+
 module AsciiCharts
 
   VERSION = '0.9.1'
