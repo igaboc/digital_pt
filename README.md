@@ -4,8 +4,16 @@ Digital PT is a personal trainer app that was developed by
 
 * [Isabelle Gaboc](https://github.com/igaboc/)
 * [Chisten Garcia](https://github.com/christengarcia/)
-* [Chy Meng](https://github.com/chy24/)
+* [Chy Meng](https://github.com/chymeng/)
 * [Alex Palma](https://github.com/developingAlex/)
+
+## Steps to run this program
+1. You must have ruby installed on your system.
+1. Download a copy of this repo to your computer.
+1. In a terminal, `cd` to the directory containing the file named digitalpt.rb
+1. Run `ruby digitalpt.rb`
+1. Create a new user following the prompts
+1. Login with the credentials you just made and workout!
 
 ## Problem
 

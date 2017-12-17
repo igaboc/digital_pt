@@ -9,10 +9,11 @@ class PT
 
   attr_accessor :exercises # list of exercises to enable the PT class to gain access to them as part of its methods
 
-  def initialize
+  def initialize(path_to_soundbytes)
       @exercises = []
       @number_of_sets_to_demand = 2
       @number_of_exercises_to_demand = 2
+      @path_to_soundbytes = path_to_soundbytes
   end
 
   # add exercise to array
@@ -164,7 +165,7 @@ end
 
     # returns a random Arnie sample
     def random_spirit_of_schwarzanegger
-        path = "/home/alex/apps/ruby/digitalPT/"
+        path = @path_to_soundbytes
         f1 = "arniebelieve.wav"
         f2 = "arnie_answer_the_questions.wav"
         f3 = "arnie_chillout.wav"
