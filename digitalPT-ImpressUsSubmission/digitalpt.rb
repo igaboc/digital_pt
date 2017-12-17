@@ -8,6 +8,8 @@ require_relative 'graph_renderer'
 require_relative 'presentationdata.rb'
 require 'terminal-table'
 
+PATH_TO_SOUNDBYTES = './'
+
 def generate_exercises()
   deadlifts = Exercise.New() #TODO:  determine what parameters will be for  Exercise before generating some.
   pt.add_exercise(deadlifts)
@@ -174,7 +176,7 @@ end
 #below is main class code:
 
 #initialise program:
-pt = PT.new
+pt = PT.new(PATH_TO_SOUNDBYTES)
 list_of_users = []
 user = User.new
 list_of_users << user
