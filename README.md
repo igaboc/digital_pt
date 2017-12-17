@@ -4,7 +4,7 @@ Digital PT is a personal trainer app that was developed by
 
 * [Isabelle Gaboc](https://github.com/igaboc/)
 * [Chisten Garcia](https://github.com/christengarcia/)
-* [Chy Meng](https://github.com/chy24/)
+* [Chy Meng](https://github.com/chymeng/)
 * [Alex Palma](https://github.com/developingAlex/)
 
 ## Steps to run this program
